@@ -1,5 +1,8 @@
 .bg-1 {
-  
-      background-color: #1abc9c; /* Green */
+  margin: auto 10px;
+    width: auto;
+    height: 2000px;
+      background-color: #5dade2; /* Blue */
       color: #ffffff;
+      
   }
