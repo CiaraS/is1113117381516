@@ -1,81 +1,61 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      
-     
-     <link rel="stylesheet" type="text/css" href="mystylesheet.css">
-     
-     
-     
-      <style>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
+  margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+/* Style the header */
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
-li a {
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the page link */
+.topnav a {
+    float: left;
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #66FCF1;
+    color: black;
 }
 </style>
-    
-   </head>
- 
- 
-
-
-
+</head>
 <body>
-    
-    <div class="bg-1">
-    <div class="container text-center">   
- 
-  
-      
-    
-    
-    </br>
-    
-   <ul>
-  <li><a href="CV/cv_page1.html" href="">Curriculum Vitae</a></li>
-  <li><a href="interests/sports.html">Sports</a></li>
-  <li><a href="ebusiness/Ebus1.php">To my eBusiness</a></li>
-  
-</ul>
-   <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-    
-    <h1> This is 117381516 - IS113 Project!</h1>
-    <h3> Welcome to my website! </h3>
 
+<div class="header">
+  <h1>Welcome to my website! This is my IS113 Project by 117381516</h1>
 </div>
+
+<div class="topnav">
+  <a href="CV/cv_page1.html" href="">Curriculum Vitae</a>
+  <a href="interests/sports.html">Interests</a>
+  <a href="ebusiness/Ebus1.php">To my eBusiness</a></
+</div>
+
 </body>
-  
-
-   
-    
-
-
-
 </html>
