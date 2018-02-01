@@ -7,45 +7,39 @@
      
      
      
-      <style TYPE="text/css">
+      <style>
+body {
+    margin: 0;
+}
 
-   a:link, a:visited, a:hover, a:active { color: #f7f9f9;
-       text-decoration: none;
-       
-        font-size: 25px;
-        border-width:2px;  
-    border-style:solid;
-   }
-   
-   h1 {
-    text-decoration:underline;
-   }
-   
-   
-   .button {
-   
-   background-color: #566573; /* grey */
-    border: none;
-    color: white;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
     padding: 8px 16px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-    cursor: pointer;
+}
 
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-    </style>
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
     
    </head>
  
@@ -60,18 +54,20 @@
  
   
       
-    <h1 class = "mainheading" style="text-align:center;"> 117381516 - IS113 Project! </h1>
+    
     
     </br>
     
-    &bull; <a href = "CV/cv_page1.html" class= "button">Curriculumum Vitae</a>
-   </br>
-   </br>
-   
-    &bull; <a href= "interests/sports.html" class= "button"  style="text-align:right">Interests</a>
+   <ul>
+  <li><a href="CV/cv_page1.html" href="">Curriculum Vitae</a></li>
+  <li><a href="interests/sports.html">Sports</a></li>
+  <li><a href="ebusiness/Ebus1.php">To my eBusiness</a></li>
+  
+</ul>
+   <div style="margin-left:25%;padding:1px 16px;height:1000px;">
     
-    
-   
+    <h1> This is 117381516 - IS113 Project!</h1>
+    <h3> Welcome to my website! </h3>
 
 </div>
 </body>
