@@ -1,9 +1,12 @@
 /* global $ */
 //We must calculate VAT and discount ourself
 
+ var argSubTotal; //Creates Variable
+
+
 function calcSub()
 {
-    var argSubTotal; //Creates Variable
+   
     
     if(document.getElementById('salesforce').checked)
     {
@@ -23,6 +26,20 @@ function calcSub()
     }
     display(argSubTotal) //Passing variable in the display function
 }
+
+function calcDisVatTotal()
+{
+
+var discountAmount; //Creates Vaiable
+
+discountAmount = argSubTotal * .05
+display(discountAmount)
+
+}
+
+
+
+
 
 function display(parm1) //parm1 equals value of argSubTotal
 {
