@@ -9,9 +9,17 @@ function calcSub()
     {
         argSubTotal = 100; //If salesforce is checked the variable = 100
     }
-    else
+   else if (document.getElementById('aws').checked)
     {
-        argSubTotal = 300; //Other option has a value of 300
+        argSubTotal = 300; //If Amazon Web Service is checked the variable = 300
+    }
+   else if (document.getElementById('Cloud 9').checked)
+    {
+        argSubTotal = 200; //If Cloud 9 is checked the variable = 200
+    }
+    else (document.getElementById('Gmail').checked)
+    {
+        argSubTotal = 400; //If Gmail is checked the variable = 400
     }
     display(argSubTotal) //Passing variable in the display function
 }
