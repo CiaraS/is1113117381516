@@ -60,7 +60,7 @@
                 Discount @ 5%
                 <br/>
                 - Discount
-                <input type="text" id="discount" value="0.00" readonly/>
+                <input type="text" id="discount" value="0.00" readonly echo discountAmount; ?/>
                 
               </label>
               

@@ -34,7 +34,7 @@ function calcDisVatTotal()
 
 
 
-discountAmount = 5
+discountAmount = argSubTotal * 05
 display(discountAmount)
 
 }
