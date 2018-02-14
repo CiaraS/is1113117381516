@@ -81,7 +81,7 @@
             </form>
             
             <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
+            <button onClick="calcSub(); calcDisVatTotal()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
             
     

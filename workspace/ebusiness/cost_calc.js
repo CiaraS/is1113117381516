@@ -2,6 +2,7 @@
 //We must calculate VAT and discount ourself
 
  var argSubTotal; //Creates Variable
+ var discountAmount; //Creates Vaiable
 
 
 function calcSub()
@@ -25,14 +26,15 @@ function calcSub()
         argSubTotal = 400; //If Gmail is checked the variable = 400
     }
     display(argSubTotal) //Passing variable in the display function
+    
 }
 
 function calcDisVatTotal()
 {
 
-var discountAmount; //Creates Vaiable
 
-discountAmount = argSubTotal * .05
+
+discountAmount = 5
 display(discountAmount)
 
 }
