@@ -34,8 +34,9 @@ function calcDisVatTotal()
 $x=$_POST['argSubTotal'];
 
 {
-discountAmount = argSubTotal * 05
-echo "Result:<input type='text' value='discountAmount'/>"; 
+discountAmount = argSubTotal * 05;
+}
+display(discountAmount); 
 
 }
 
@@ -51,6 +52,15 @@ function display(parm1) //parm1 equals value of argSubTotal
     
     enablebtnProceed();
 }
+
+
+function display(discountAmount)
+
+document.getElementById("discountAmount").value = discountAmount;
+ enablebtnProceed();
+ }
+
+
 
 function enablebtnProceed()
 {
