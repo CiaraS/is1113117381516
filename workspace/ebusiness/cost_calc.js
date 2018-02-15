@@ -31,11 +31,11 @@ function calcSub()
 
 function calcDisVatTotal()
 {
+$x=$_POST['argSubTotal'];
 
-
-
+{
 discountAmount = argSubTotal * 05
-display(discountAmount)
+echo "Result:<input type='text' value='discountAmount'/>"; 
 
 }
 
