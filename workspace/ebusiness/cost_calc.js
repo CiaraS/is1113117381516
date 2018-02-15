@@ -25,7 +25,7 @@ function calcSub()
     {
         argSubTotal = 400; //If Gmail is checked the variable = 400
     }
-    display(argSubTotal) //Passing variable in the display function
+    display(argSubTotal); //Passing variable in the display function
     
 }
 
@@ -54,11 +54,6 @@ function display(parm1) //parm1 equals value of argSubTotal
 }
 
 
-function display(discountAmount)
-
-document.getElementById("discountAmount").value = discountAmount;
- enablebtnProceed();
- }
 
 
 
