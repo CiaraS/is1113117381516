@@ -53,7 +53,11 @@ function display(parm1) //parm1 equals value of argSubTotal
     enablebtnProceed();
 }
 
-
+function display(parm2)
+{
+ document.getElementById("discount").value = parm2;
+ enablebtnProceed();
+}
 
 
 
