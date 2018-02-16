@@ -60,7 +60,19 @@
                 Discount @ 5%
                 <br/>
                 - Discount
-                <input type="text" id="discount" value="discountAmount" readonly />
+                <input type="text" id="discount" value="0.00" readonly />
+                
+              </label>
+              
+              <br/>
+              
+              
+               <label for="VAT">
+                
+                VAT @ 10%
+                
+                
+                <input type="text" id="vat" value="0.00" readonly />
                 
               </label>
               
@@ -71,6 +83,8 @@
               
               <label for="total">
                 Total
+                </br>
+                (-Discount +VAT)
                 <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
@@ -81,6 +95,7 @@
             </form>
             
             <br/>
+            
             <button onClick="calcSub(); calcDisVatTotal()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
             

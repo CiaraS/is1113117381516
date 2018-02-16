@@ -31,13 +31,12 @@ function calcSub()
 
 function calcDisVatTotal()
 
-
 {
-discountAmount = argSubTotal * 05;
+discountAmount = argSubTotal * .05;
 
+display(discountAmount);
 
 }
-
 
 
 
@@ -49,7 +48,13 @@ function display(parm1) //parm1 equals value of argSubTotal
     document.getElementById("subtotal").value = parm1;
     document.getElementById("total").value = parm1;
     
-    enablebtnProceed();
+   
+}
+
+function display(discountAmount)
+{
+     document.getElementById("discount").value = discountAmount;
+      enablebtnProceed();
 }
 
 
