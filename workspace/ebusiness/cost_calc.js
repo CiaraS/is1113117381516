@@ -2,7 +2,7 @@
 //We must calculate VAT and discount ourself
 
  var argSubTotal; //Creates Variable
- var discountAmount; //Creates Vaiable
+ var discountAmount ; //Creates Vaiable
 
 
 function calcSub()
@@ -13,15 +13,15 @@ function calcSub()
     {
         argSubTotal = 100; //If salesforce is checked the variable = 100
     }
-   else if (document.getElementById('aws').checked)
+   if (document.getElementById('aws').checked)
     {
         argSubTotal = 300; //If Amazon Web Service is checked the variable = 300
     }
-  else if (document.getElementById('Cloud 9').checked)
+   if (document.getElementById('Cloud 9').checked)
     {
         argSubTotal = 200; //If Cloud 9 is checked the variable = 200
     }
-   else (document.getElementById('Gmail').checked)
+   if (document.getElementById('Gmail').checked)
     {
         argSubTotal = 400; //If Gmail is checked the variable = 400
     }
@@ -34,6 +34,8 @@ function calcDisVatTotal()
 
 {
 discountAmount = argSubTotal * 05;
+
+display(discountAmount)
 }
 
 
@@ -50,7 +52,10 @@ function display(parm1) //parm1 equals value of argSubTotal
     enablebtnProceed();
 }
 
-
+function display(parm2)
+{
+   document.getElementById("discount").value = parm2; 
+}
 
 function enablebtnProceed()
 {
