@@ -1,7 +1,6 @@
-#section1{
-   background-image: https://zdnet3.cbsistatic.com/hub/i/2012/11/26/278e55cc-1d11-11e4-8c7f-00505685119a/0d90f1dfd278e8f2e4ad4cf56f90455b/cloud-horizon.jpg;
 
-    
+#section1{
+    background-color: rgb(238, 0, 90);
 }
 
 #section2{
@@ -9,6 +8,10 @@
 }
 
 #section3{
+    background-color: rgb(51, 153, 204);
+}
+
+#section4{
     background-color: rgb(51, 153, 204);
 }
 
