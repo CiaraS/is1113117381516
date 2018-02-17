@@ -1,21 +1,35 @@
 
 #section1{
     background-color: rgb(238, 0, 90);
+     font-family: "Times New Roman", Times, serif;
+     font-size: 50px;
 }
 
 #section2{
     background-color: rgb(44, 62, 80);
+    font-family: "Times New Roman", Times, serif;
+     font-size: 50px;
 }
 
 #section3{
     background-color: rgb(51, 153, 204);
+    font-family: "Times New Roman", Times, serif;
+     font-size: 50px;
 }
 
 #section4{
     background-color: rgb(51, 153, 204);
+    font-family: "Times New Roman", Times, serif;
+     font-size: 50px;
 }
 
 .section{
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
     text-align: center;
+    top: 50%;
+    width: 100%;
     color: white;
 }
