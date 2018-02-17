@@ -2,31 +2,30 @@
 #section1{
     background-color: rgb(238, 0, 90);
      font-family: "Times New Roman", Times, serif;
-     font-size: 50px;
+     font-size: 30px;
 }
 
 #section2{
     background-color: rgb(44, 62, 80);
     font-family: "Times New Roman", Times, serif;
-     font-size: 50px;
+     font-size: 30px;
 }
 
 #section3{
     background-color: rgb(51, 153, 204);
     font-family: "Times New Roman", Times, serif;
-     font-size: 50px;
+     font-size: 30px;
 }
 
 #section4{
     background-color: rgb(51, 153, 204);
     font-family: "Times New Roman", Times, serif;
-     font-size: 50px;
+     font-size: 30px;
 }
 
 .section{
    position: absolute;
     text-align: center;
-    top: 50%;
-    width: 100%;
+ 
     color: white;
 }
