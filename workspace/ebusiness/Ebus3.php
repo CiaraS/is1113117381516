@@ -15,7 +15,7 @@ session_start();
         <div id ="absolute" class="font" >
             <?php
             //echo session variables that were set on previous page
-            echo "Total is " . $SESSION ["total"] . " . ";
+            echo "Total is " . $_POST ["total"] . " . ";
             ?>
         </div>
     </body>
