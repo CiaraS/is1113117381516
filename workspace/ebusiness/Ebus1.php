@@ -32,14 +32,14 @@
               <br/>
               
                <label for="Cloud9">
-                <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
               </label>
               
               <br/>
               
                <label for="Gmail">
-                <input type="radio" id="Gmail" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ $400
               </label>
               
@@ -89,7 +89,7 @@
             </form>
             
             <br/>
-            <button onClick="calcSub(); calcDisVatTotal()">Calculate Cost</button>
+            <button onClick="calcSub();">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
             
     
