@@ -29,6 +29,7 @@ function calcSub()
     {
         argSubTotal = 400; //If Gmail is checked the variable = 400
     }
+    {
     calcDisVatTotal(argSubTotal); //Passing variable in the display function
     
 }

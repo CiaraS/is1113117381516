@@ -32,7 +32,7 @@
               <br/>
               
                <label for="Cloud9">
-                <input type="radio" id="Cloud 9" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
               </label>
               
@@ -49,7 +49,7 @@
               
               <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="product" value="0.00" readonly/>
               </label>
               
               <br/>
