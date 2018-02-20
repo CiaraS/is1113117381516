@@ -31,14 +31,14 @@
               
               <br/>
               
-               <label for="Cloud9">
+               <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
               </label>
               
               <br/>
               
-               <label for="Gmail">
+               <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ $400
               </label>
