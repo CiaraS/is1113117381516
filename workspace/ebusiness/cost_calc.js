@@ -1,6 +1,6 @@
 /* global $ */
 
-function calSub()
+function calcSub()
 {
     var argSubTotal;
     
