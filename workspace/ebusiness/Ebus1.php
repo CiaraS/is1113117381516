@@ -69,7 +69,7 @@
   
   
   body{
-    padding: 50px 50;
+    padding: 250px 250;
   }
           
         </style>
@@ -80,7 +80,7 @@
     
     <body>
         <!-- Heading -->
-        <h4><strong>Select a Product</strong></h4>
+        <h2><strong>Select a Product</strong></h2>
         <br/>
         
         <!-- Layout of the page and proceed to Ebus2 when all actions completed -->

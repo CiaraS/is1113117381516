@@ -16,6 +16,8 @@ function validateDetails(){
     }
 }
 
+
+
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
 }

@@ -28,10 +28,7 @@ session_start();
         
         <h4 class="mainheading">RECIPT</h4>
         <div id ="absolute" class="font" >
-            <?php
-            //echo session variables that were set on previous page
-            echo "Total is " . $_POST ["total"] . " . ";
-            ?>
+            <?php echo $_POST["total"]; ?><br>
         </div>
         
         	<a href="../homepage.html" class="button">Home</a>

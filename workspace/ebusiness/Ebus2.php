@@ -8,11 +8,38 @@
     background-color: #FFC300;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+          }
+          
+   .button1 {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+  .button2 {
+    background-color: #00e600;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
   }
@@ -49,12 +76,12 @@
             <br/>
             <br/>
           
-            <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+            <button type="submit" id="btnPurchase" class="button2" disabled>Proceed with Purchase</button>
             
           </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="validateDetails()" class="button">Validate</button>
             
            <script type="text/javascript" src="ebus2_validator.js"></script>
             
