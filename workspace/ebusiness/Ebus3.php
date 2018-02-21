@@ -8,6 +8,14 @@ session_start();
         <title>RECIPT</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
         <style>
+         body {
+        background:url("ebus.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        }
             .button {
     background-color: #FFC300;
     border: none;

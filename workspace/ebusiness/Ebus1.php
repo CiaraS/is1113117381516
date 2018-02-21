@@ -12,6 +12,17 @@
         
         <style>
                 /* Styles button the same as every other file on website*/
+                
+                
+                
+       body {
+        background:url("ebus.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        }
           .button {
     background-color: #FFC300;
     border: none;
