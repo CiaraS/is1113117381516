@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <title>CSS Website Layout</title>
+<!--declares the page's character encoding -->
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 
 body {
@@ -37,22 +38,38 @@ body {
     
 }
 
-/* Style the page link */
+/* Stlyes the top naviagtion bar  */
 .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     font-family: Tahoma, Geneva, sans-serif;
-    padding: 14px 16px;
+    padding: 18px 28px;
     text-decoration: none;
 }
 
-/* Change color on hover to light blue */
+/* Once a user hovers over the naviagtion bar the link hovered over changes to yellow */
 .topnav a:hover {
-    background-color: #66FCF1;
+    background-color: #FFC300;
     color: black;
+  /*Changes the cursor to a pointing finger symbol */  
+    cursor: pointer; 
 }
+.button {
+    background-color: #FFC300;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    /*Changes the cursor to a pointing finger symbol */
+    cursor: pointer;
+  }
+
 </style>
 </head>
 
@@ -72,28 +89,28 @@ body {
   <br/>
   <br/>
    <h1 class ="mainheading">About the Cloud Services we offer</h1>
- 
+ <!-- Cloud Services vendor section outlining different companies offered-->
    <br/>
   <p><strong>SalesForce.com: </strong>Software as a service (SaaS) </p>
   <p>As of 2016, salesforce is one of the most highly valued American cloud computing company as it has a market capitalisation that  is now above $61 billion. The company specializes in software as a service and was set up in 1999 by Marc Benioff, Parker Harris, Dave Moellenhoff, and Frank Dominguez. </p>
   <p>They offer a wide variety of cloud based services including: App cloud, Community cloud, Work.com, Data.com, Desk.com and Do.com</p>
-  <a href="https://www.salesforce.com/company/about-us/"> About Salesforce</a>
+  <a href="https://www.salesforce.com/company/about-us/" class="button"> Link to Salesforce</a>
   
     <p><strong>Cloud9: </strong>Platform as a service (Paas) </p>
     <p>Cloud9 is an online development platform. It allows users to code, debug and run files or projects. It supports a vast array of programming languages such as HTML, JavaScript, PHP and C++</p>
   <p> It allows users to collabarate on projects and supports various code repositories such as Github or Bitbucekt. As of 2016, it is owened by Amazon.</p>
-   <a href="https://aws.amazon.com/cloud9/">About Cloud9</a>
+   <a href="https://c9.io/" class="button">Link to Cloud9</a>
    
    <p><strong>Amazon Web Services (AWS): </strong>Infrastructure as a service </p>
     <p>AWS is a cloud computing platform. It offers (Saas) and (Paas) but here I will outline it's offerings in regards to infrastructure. </p>
    <p>AWS was originally built for Amazon to use internally to handle it's online retail operations. It's hugh number of data centers in many different availabilty zones (AZ) provides customers with an extremely reliable infrastructure that is resistant to failures.</p> 
-   <a href="https://aws.amazon.com/about-aws/">About AWS</a>
+   <a href="https://aws.amazon.com/about-aws/" class="button">Link to AWS</a>
    
      <p><strong>Gmail: </strong>Communication as a service </p>
     <p>Gmail is a free email service owned by Google. It offers 15 gigabytes of free storage currently, a signnificant differnce from the 1 gigabyte offered in it's early stages in 2004</p>
 <p> It automatically scans emails for malware and spam making it a very customer-friendly option</p>
 <p>It is a very large communication platform as it has over 1.2 billion users worldwide currently and also holds the title of being the first app on the android platform to reach a billion downloads.</p>
-<a href="https://www.gmail.com/mail/help/intl/en_GB/benefits.html">About Gmail</a>
+<a href="https://www.gmail.com/mail/help/intl/en_GB/benefits.html" class="button">Link to Gmail</a>
 
 
 <br/>
