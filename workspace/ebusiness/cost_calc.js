@@ -48,8 +48,8 @@ function display(parm1, parm2, parm3, parm4){
     document.getElementById("discount").value = parm2; //Display discount
     document.getElementById("vat").value = parm3; //Display vat
     document.getElementById("total").value = parm4; //Display total
+   
     
-    enablebtnProceed();
 }
 
 //Function that enables the proceed button
@@ -57,7 +57,7 @@ function enablebtnProceed(){
     $("#btnProceed").prop("disabled", false);
 }
 
-//Function that disable the proceed button
+//Function that disables the proceed button
 function disablebtnProceed(){
     $("#btnProceed").prop("disabled", true);
 }

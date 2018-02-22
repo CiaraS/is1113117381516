@@ -11,10 +11,12 @@
         
         
         <style>
-                /* Styles button the same as every other file on website*/
+               
                 
                 
                 
+      
+       /* Styles the text and applies the background image*/
        body {
         background:url("ebus.jpg");
         background-repeat: no-repeat;
@@ -35,7 +37,7 @@
     margin: 4px 2px;
     cursor: pointer;
   }
-  
+   /* Styles the button */
   .button1 {
     background-color: #ff4d4d;
     border: none;
@@ -72,6 +74,7 @@
     font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
+    /* black border around white button */
     border: 2px solid #555555;
   }
   
