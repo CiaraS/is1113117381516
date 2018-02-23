@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     
@@ -26,7 +30,7 @@
         font-size: 18px;
         }
           .button {
-    background-color: #FFC300;
+    background-color: #FFC300; /* yellow */
     border: none;
     color: white;
     padding: 10px 22px;
@@ -39,7 +43,7 @@
   }
    /* Styles the button */
   .button1 {
-    background-color: #ff4d4d;
+    background-color: #ff4d4d; /* light red */
     border: none;
     color: white;
     padding: 10px 25px;
@@ -52,7 +56,7 @@
   }
   
   .button2 {
-    background-color: #00e600;
+    background-color: #00e600; /* green  */
     border: none;
     color: white;
     padding: 10px 25px;
@@ -65,7 +69,7 @@
   }
   
   .button3 {
-    background-color: #ffffff;
+    background-color: #ffffff; /* white */
     color: black;
     padding: 10px 25px;
     text-align: center;
@@ -178,6 +182,9 @@
       
             <a role="button" class="button3" href="Ebus1.php">Clear Choice</a>
             <a href="../homepage.html" class="button1">Home</a>
+            
+            <?php echo $_POST["total"]; ?><br>
+        </div>
 
     </body>
     

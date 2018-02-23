@@ -1,9 +1,14 @@
 <?php
+// Start the session
 session_start();
 ?>
 <!DOCTYPE html>
 <html>
     <head>
+         <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript" src="cost_calc.js"></script>
+
         
         <title>RECIPT</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
@@ -40,12 +45,29 @@ session_start();
     
     <body>
         
-        <h4 class="mainheading">RECIPT</h4>
-        <div id ="absolute" class="font" >
-            <?php echo $_POST["total"]; ?><br>
-        </div>
+        
+        <h4 class="mainheading">Receipt</h4>
+        
+        
+        
+        <div>
+            <?php
+            //Echo  variables on previous page
+            echo "Thank you for your purchase " . $_POST["user_name"]; ?>
+            <br/>
+            
+            <?php
+            echo "Your receipt will be sent to " . $_POST["user_email"]; ?>
+            <br/>
+            <?php
+            echo "The total Price: $" . $_SESSION["total"];
+            ?>
+</div>
+        <br/>
+       
         
         	<a href="../homepage.html" class="button">Home</a>
+        
     </body>
     
     
