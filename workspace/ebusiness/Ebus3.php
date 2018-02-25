@@ -10,12 +10,12 @@ session_start();
  <script type="text/javascript" src="cost_calc.js"></script>
 
         
-        <title>RECIPT</title>
+        <title>Your receipt</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
         <style>
         
         
-        
+        /* sets image and styles text */
          body {
         background:url("ebus.jpg");
         background-repeat: no-repeat;
@@ -25,7 +25,7 @@ session_start();
         font-size: 18px;
         }
         
-        
+        /* styles page buttons */
         
             .button {
     background-color: #FFC300;
@@ -54,17 +54,21 @@ session_start();
             <?php
             //Echo  variables on previous page
             echo "Thank you for your purchase " . $_POST["user_name"]; ?>
-            <br/>
+        <br/>
+        <br/>
             
             <?php
-            echo "Your receipt will be sent to " . $_POST["user_email"]; ?>
-            <br/>
+            echo "Your receipt will be sent to: " . $_POST["user_email"]; ?>
+        <br/>
+        <br/>
             <?php
+            //gets total value from session
             echo "The total Price: $" . $_SESSION["total"];
             ?>
 </div>
         <br/>
        
+       <!-- button link to homepge -->
         
         	<a href="../homepage.html" class="button">Home</a>
         

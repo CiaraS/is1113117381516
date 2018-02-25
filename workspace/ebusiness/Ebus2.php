@@ -73,16 +73,16 @@ session_start();
             Your order is $<?php echo $_POST["total"]; ?><br/>
         </div>
         <br/>
-            <label for="Name">
+            <label for=user_name">
               Name
-              <input type="text"  id="name" placeholder="Enter Name"/>
+              <input type="text"  id="user_name" placeholder="example: John Doe"/>
             </label>
             
             <br/>
             <br/>
              <!-- Email textbox -->
             <label for="user_email">Email: </label>
-            <input type="text" id="user_email" placeholder="eg. youremail@gmail.com" name="user_email"/>
+            <input type="text" id="user_email" placeholder="example: youremail@gmail.com" name="user_email"/>
             <br/>
 
             <br/>

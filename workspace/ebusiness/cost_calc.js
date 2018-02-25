@@ -25,7 +25,7 @@ function calcSub(){
 //Calculates the discount and vat depending on surrent subtotal and then calculates the total price
 function calcDisVatTotal(parmSubTotal){
     
-    //Declaing variables
+    //Declaing  all variables used in function
     var subTotal;
     var discountrate = 0.05;
     var discountAmt;
@@ -38,10 +38,11 @@ function calcDisVatTotal(parmSubTotal){
     vatAmt = ((subTotal - discountAmt) * vatrate); //Calculate the vat
     totalPrice = (subTotal - discountAmt + vatAmt ); //Calculate the total
     
-    display(subTotal, discountAmt, vatAmt, totalPrice); //Pass the value to complete the function display() next
+    display(subTotal, discountAmt, vatAmt, totalPrice); //Pass the values to  the function display() 
 }
 
 //Function to display subTotal, discountAmt, vatAmt, totalPrice
+//parm displayed in order of values put in display function
 function display(parm1, parm2, parm3, parm4){
     
     document.getElementById("subtotal").value = parm1; //Display subtotal
