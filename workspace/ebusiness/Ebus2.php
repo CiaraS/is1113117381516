@@ -82,8 +82,8 @@ session_start();
             <br/>
              <!-- Email textbox -->
             <label for="user_email">Email: </label>
-            <input type="text" id="user_email" placeholder="example: youremail@gmail.com" name="user_email"/>
-            <br/>
+            <input type="text" id="user_email" placeholder="example: youremail@gmail.com" name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" size="30"/>
+            
 
             <br/>
             <br/>

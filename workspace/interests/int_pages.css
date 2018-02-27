@@ -3,27 +3,28 @@
 /* Applies font and styles to eahc slide */
 #section1{
     background-color: #06A4DE;
-     font-family: "Times New Roman", Times, serif;
-     font-size: 30px;
+    
+     font-family: Verdana, Geneva, sans-serif;
+     font-size: 25px;
 }
 
 #section2{
     background-color: rgb(44, 62, 80);
-    font-family: "Times New Roman", Times, serif;
-     font-size: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+     font-size: 20px;
 }
 
 #section3{
     background-color: rgb(254, 254, 254);
     color: black;
-    font-family: "Times New Roman", Times, serif;
-     font-size: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+     font-size: 20px;
 }
 
 #section4{
     background-color: rgb(1, 1, 1);
-    font-family: "Times New Roman", Times, serif;
-     font-size: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+     font-size: 20px;
 }
 
 .section{
@@ -31,4 +32,8 @@
     text-align: center;
  
     color: white;
+}
+/* rounded corners */
+img {
+    border-radius: 10%; 
 }

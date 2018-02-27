@@ -28,6 +28,7 @@ session_start();
         text-align: center;
         color: white;
         font-size: 18px;
+        background-color: white;
         }
           .button {
     background-color: #FFC300; /* yellow */

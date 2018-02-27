@@ -10,7 +10,7 @@ session_start();
  <script type="text/javascript" src="cost_calc.js"></script>
 
         
-        <title>Your receipt</title>
+        <title>Your receipt from Cloud Catalyst</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
         <style>
         
@@ -39,14 +39,24 @@ session_start();
     margin: 4px 2px;
     cursor: pointer;
   }
+  
+  h4 { 
+      font-size: 24px;
+  }
+  
         </style>
       
     </head>
     
     <body>
         
+        <br/>
+        <br/>
         
         <h4 class="mainheading">Receipt</h4>
+        
+        <br/>
+       
         
         
         
@@ -69,6 +79,9 @@ session_start();
         <br/>
        
        <!-- button link to homepge -->
+       
+       
+       <br/>
         
         	<a href="../homepage.html" class="button">Home</a>
         
