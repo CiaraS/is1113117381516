@@ -86,10 +86,7 @@ session_start();
   
   
   
-  
-  body{
-    padding: 250px 250;
-  }
+
           
         </style>
 
@@ -184,7 +181,7 @@ session_start();
             <a href="../homepage.html" class="button1">Home</a>
             
             <?php echo $_POST["total"]; ?><br>
-        </div>
+       
 
     </body>
     

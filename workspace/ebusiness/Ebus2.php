@@ -71,12 +71,12 @@ session_start();
         
           <form action="Ebus3.php" method="POST">
             Your order is $<?php echo $_POST["total"]; ?><br/>
-        </div>
+       
         <br/>
-            <label for=user_name">
-              Name
+            <label for="user_name">Name: </label>
+             
               <input type="text"  id="user_name" placeholder="example: John Doe"/>
-            </label>
+            
             
             <br/>
             <br/>
