@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <head>
         <!-- Title of the form -->
@@ -167,7 +167,7 @@ session_start();
         
           
        <!-- Calls the calcSub function once button is clicked -->
-    <button onClick="calcSub()" class="button2">Calculate Cost</button>
+    <button onClick="calcSub()" class="button2" disabled>Calculate Cost</button>
     <br/>
         
             <!-- Button to submit -->

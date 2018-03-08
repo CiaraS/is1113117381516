@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Enter Details</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
